@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Système de Gestion de Bibliothèque</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="inscription.html">S'inscrire</a></li>
+                <li><a href="panier.html">Mon Panier</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>S'inscrire</h2>
+        <form id="inscriptionForm">
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mot_de_passe">Mot de Passe:</label>
+            <input type="password" id="mot_de_passe" name="mot_de_passe" required>
+            <button type="submit">S'inscrire</button>
+        </form>
+    </main>
+    <script src="js/inscription.js"></script>
+</body>
+</html>
