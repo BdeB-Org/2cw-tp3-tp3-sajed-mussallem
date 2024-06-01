@@ -1,4 +1,3 @@
-// index.js
 document.addEventListener('DOMContentLoaded', () => {
     fetchLivres();
 });
